@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temaoppgave 3</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="slideshow">
+        <div class="img-cont">
+            <div class="image positionImgBottomToMiddle">
+                <img src="./img/frontendTemaOppg3.jpg" alt="">
+            </div>
+
+            <div class="image">
+                <img src="./img/frontendTemaOppg3-3.jpg" alt="">
+            </div>
+
+            <div class="image">
+                <img src="./img/frontendTemaOppg3-2.jpg" alt="">
+            </div>
+
+            <div class="image">
+                <img src="./img/frontendTemaOppg3-4.jpg" alt="">
+            </div> 
+        </div>
+
+        <div class="circle"></div>
+
+        <div class="nav-btns">
+            <button id="prev">Prev</button>
+            <p>/</p>
+            <button id="next">Next</button>
+        </div>
+
+        <div class="title-cont">
+            <div class="title positionTitleFromLeftToMiddle">
+                <h1 onmouseleave = "setDefaultLetterSpacing(this); onHoverImageReset(0)" onmouseenter = "onHoverImage(0)">Sunflare</h1>
+            </div>
+            <div class="title" onmouseenter = "onHoverImage(1)">
+                <h1 onmouseleave = "setDefaultLetterSpacing(this); onHoverImageReset(1)" onmouseenter = "onHoverImage(1)">Chalky</h1>
+            </div>
+            <div class="title" onmouseenter = "onHoverImage(2)">
+                <h1 onmouseleave = "setDefaultLetterSpacing(this); onHoverImageReset(2)" onmouseenter = "onHoverImage(2)">Romance</h1>
+            </div>
+            <div class="title" onmouseenter = "onHoverImage(3)">
+                <h1 onmouseleave = "setDefaultLetterSpacing(this); onHoverImageReset(3)" onmouseenter = "onHoverImage(3)">Flirtatious</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
